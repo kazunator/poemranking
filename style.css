@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#start-poem {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+#continuations {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.continuation {
+  font-size: 1.25em;
+  margin: 1em;
+  padding: 1em;
+  border: 1px solid gray;
+  border-radius: 5px;
+  text-align: left;
+  width: 300px;
+}
+
+input[type="radio"] {
+  margin-right: 0.5em;
+}
